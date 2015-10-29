@@ -332,6 +332,10 @@ K Low Power Half-Duplex RS-485 Transceiver 10Mbps
 F http://www.icbase.com/pdf/SPX/SPX00480106.pdf
 $ENDCMP
 #
+$CMP TJA1042T/3
+D High speed CAN Transceiver
+$ENDCMP
+#
 $CMP TMC809
 D Microcontroller reset monitor
 F microchip/TCM809_reset_controller.pdf
