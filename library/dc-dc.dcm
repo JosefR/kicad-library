@@ -759,6 +759,11 @@ D Low EMI DC/DC converter.
 F regulator/lt3439.pdf
 $ENDCMP
 #
+$CMP LT8609
+D 3.0V .. 42V Input, 2A, Synchronous Step-Down Regulator
+F http://cds.linear.com/docs/en/datasheet/8609f.pdf
+$ENDCMP
+#
 $CMP MAX5035AASA
 D 3.3V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO8
 K 3.3V 1A Step-Down Converter 76V Hi-Temp
@@ -872,6 +877,12 @@ K DC/DC Buck Conwerter 3A
 F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00285678.pdf
 $ENDCMP
 #
+$CMP TPS54233
+D 28V 25 A, Step Down DC-DC Converter with Eco-mode, SOIC8
+K Step-Down DC-DC Switching Regulator High Voltage
+F http://www.ti.com/lit/ds/symlink/tps54233.pdf
+$ENDCMP
+#
 $CMP TPS5430DDA
 D 36V 3A, Step Down Swift Converter, HSOIC8
 K Step-Down DC-DC Switching Regulator
@@ -894,6 +905,12 @@ $CMP TPS54360DDA
 D 60V 3.5 A, Step Down DC-DC Converter with Eco-mode, HSOIC8
 K Step-Down DC-DC Switching Regulator High Voltage High Frequency
 F http://www.ti.com/lit/ds/symlink/tps54360.pdf
+$ENDCMP
+#
+$CMP TPS560200
+D 36V 3A, Step Down Swift Converter, HSOIC8
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps5430.pdf
 $ENDCMP
 #
 $CMP TPS60500DGS
