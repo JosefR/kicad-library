@@ -764,6 +764,10 @@ D 3.0V .. 42V Input, 2A, Synchronous Step-Down Regulator
 F http://cds.linear.com/docs/en/datasheet/8609f.pdf
 $ENDCMP
 #
+$CMP LTC3564
+D 2.25MHz, 1.25A, Synchronous, Step-Down Regulator, TSOT-23
+$ENDCMP
+#
 $CMP MAX5035AASA
 D 3.3V 1A, High-Efficiency Step-Down DC-DC Converter, Vin 76V, High Temperature Grade, SO8
 K 3.3V 1A Step-Down Converter 76V Hi-Temp
