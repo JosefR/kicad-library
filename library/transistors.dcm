@@ -560,6 +560,18 @@ K N-Channel Power MOSFET
 F http://www.fairchildsemi.com/ds/BU/BUZ11.pdf
 $ENDCMP
 #
+$CMP DMP6023LSS
+D 60V VDS, P CHANNEL ENHANCEMENT MODE MOSFET, SO-8
+K Dual HEXFET N-Channel P-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7343ipbf.pdf
+$ENDCMP
+#
+$CMP DMP6050SFG
+D 60V VDS, P Channel Enhancement mode MOSFET
+K Dual HEXFET N-Channel P-Channel MOSFET
+F http://www.diodes.com/_files/datasheets/DMP6050SFG.pdf
+$ENDCMP
+#
 $CMP DTA113T
 D Digital Transistor, 1k/NONE, SOT-23
 K ROHM Digital Transistor
